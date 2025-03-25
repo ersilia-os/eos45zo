@@ -2,16 +2,15 @@ Identifier: eos45zo
 Slug: antimicrobial-activity-prediction
 Status: In progress
 Title: Antimicrobial activity prediction test
-Description: This is a test model for antimicrobial activity prediction. no actions
-  required
-Mode: ''
-Task: []
-Input: []
-Input Shape: ''
-Output: []
-Output Type: []
-Output Shape: ''
-Interpretation: ''
+Description: Prediction of clinically relevant drug-induced-liver-injury (DILI), based solely on drug structure using binary classification methods. The authors collected a public dataset of 475 molecules with associated DILI outcomes, and built a model with an accuracy of 0.89. The model checkpoints have not been provided so Ersilia has used the provided data to retrain the model.
+Mode: Pretrained
+Task: Classification
+Input: Compound
+Input Shape: Single
+Output: Float
+Output Type: Float
+Output Shape: List
+Interpretation: This model does not do anything. It is just mock model
 Tag:
 - A.baumannii
 Publication: https://example.com
