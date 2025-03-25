@@ -1,18 +1,19 @@
-Identifier: ""
-Slug: ""
-Status: ""
-Title: ""
-Description: ""
-Mode: ""
+Identifier: eos45zo
+Slug: antimicrobial-activity-prediction
+Status: In progress
+Title: Antimicrobial activity prediction test
+Description: This is a test model for antimicrobial activity prediction. no actions
+  required
+Mode: ''
 Task: []
 Input: []
-Input Shape: ""
+Input Shape: ''
 Output: []
 Output Type: []
-Output Shape: ""
-Interpretation: ""
-Tag: []
-Publication: ""
-Source Code: ""
-License: ""
-
+Output Shape: ''
+Interpretation: ''
+Tag:
+- A.baumannii
+Publication: https://example.com
+Source Code: https://example.com
+License: MIT
